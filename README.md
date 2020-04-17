@@ -1,5 +1,31 @@
 # ComBridge是一个通信桥接实现的通信库  
 
+## Usage
+
+### 1.Gradle dependency
+   
+
+If you have migrated to Androidx，please add it in your root build.gradle at the end of repositories:
+
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+	
+```
+Then add the dependency in your app build.gradle
+
+```
+implementation 'com.github.xianglin1998:ComBridge:latestVersion''
+```
+
+
+latestVersion:[![latestVersion](https://jitpack.io/v/xianglin1998/ComBridge.svg)](https://jitpack.io/#xianglin1998/ComBridge)
+
+
 目前实现了InputStream和OutputStream桥接到LocalServerSocket的过程 
 
 使用方法：  
