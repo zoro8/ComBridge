@@ -1,4 +1,4 @@
-package cn.dxl.com;
+package com.iobridges.com;
 
 import java.io.Closeable;
 import java.io.IOException;
