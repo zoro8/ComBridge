@@ -1,0 +1,3 @@
+rootProject.name='ComBridge'
+include ':app'
+include ':iobridges'
