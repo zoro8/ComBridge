@@ -26,7 +26,7 @@ LocalComBridgeAdapter是负责上述映射过程的实现类，在需要进行�
     以提供完整的验证过程！
     
  针对UsbDeviceConnection与UsbEndpoint到Inputstream与OutputStream的转换  
- 我们提供了BulkInputStream与BulkOutputStream两个封装类，你只需要实例化并且传入对应的链接与端点即可。
+ 我们提供了BulkInputStream与BulkOutputStream两个封装类，你只需要实例化并且传入对应的链接与端点即可。  
  例如：
     inputStream = new BulkInputStream(mCon, mEpIn);
     outputStream = new BulkOutputStream(mCon, mEpOut);
